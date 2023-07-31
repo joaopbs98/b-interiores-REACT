@@ -1,0 +1,20 @@
+.btn {
+    display: inline-flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--neutral-900, #0D0F11);
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.btn:hover {
+    transition: all 0.3s ease-in-out;
+    background: var(--neutral-900, #343638);
+    cursor: pointer;
+}

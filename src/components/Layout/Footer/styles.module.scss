@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  background: #111;
+  font-family: "ClashDisplay-Variable";
+
+  .box {
+    display: flex;
+    width: 1340px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 48px 32px;
+
+    .company {
+      display: flex;
+      width: fit-content;
+      height: fit-content;
+      flex-direction: column;
+      gap: 18px;
+
+      .top {
+        display: flex;
+        gap: 150px;
+        align-items: center;
+
+        .socials {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+          width: fit-content;
+          gap: 28px;
+        }
+      }
+
+      .bottom {
+        color: white;
+      }
+    }
+
+    .cta {
+      p {
+        color: white;
+        font-size: 18px;
+      }
+    }
+  }
+}

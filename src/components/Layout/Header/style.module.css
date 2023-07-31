@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  height: 76px;
+  padding: 16px 32px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  background: var(--shades-white, #fff);
+  max-width: 1340px;
+  margin: 0 auto;
+}
+.nav img {
+  width: 202px;
+  height: 48.132px;
+}
+.nav div ul {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav div ul li {
+  color: #000;
+  font-family: Clash Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+.nav div ul li .li:hover {
+  transition: all 0.3s ease-in-out;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cartCount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+}

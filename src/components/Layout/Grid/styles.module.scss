@@ -1,0 +1,38 @@
+.row {
+  display: flex;
+  width: 1434px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 36px 33px;
+  flex-wrap: wrap;
+  align-self: center;
+
+  .img1 {
+    width: 446px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 20px;
+  }
+
+  .img2 {
+    width: 833px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 20px;
+  }
+
+  .img3 {
+    width: 833px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 20px;
+  }
+
+  .img4 {
+    width: 446px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 20px;
+  }
+}

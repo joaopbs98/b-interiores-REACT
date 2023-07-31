@@ -1,0 +1,76 @@
+.box {
+  width: 100%;
+  height: fit-content;
+  background: #fff;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+
+  nav {
+    display: flex;
+    height: 76px;
+    padding: 16px 32px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: #fff;
+    max-width: 1340px;
+    margin: 0 auto;
+
+    .cartCount {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 30px;
+      right: 250px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: red;
+      color: white;
+      font-size: 14px;
+    }
+
+    img {
+      width: 202px;
+      height: 48.132px;
+    }
+
+    div {
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        li {
+          color: #000;
+          font-family: Clash Display;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 17px;
+
+          a {
+            text-decoration: none;
+            color: inherit;
+          }
+
+          &:hover {
+            cursor: pointer;
+          }
+
+          &:visited {
+            color: inherit;
+          }
+
+          &.active {
+            font-weight: 600;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
