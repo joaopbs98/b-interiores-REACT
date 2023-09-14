@@ -8,6 +8,7 @@ import Footer from "./components/Layout/Footer/Footer";
 import Contact from "./pages/Contact";
 import { ProductProvider } from "./components/Features/ProductsProvider/ProductProvider";
 import { CartProvider } from "./components/Features/CartContext/CartContext";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Homepage />} />
             <Route path="/catalog" element={<Catalog />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
         </BrowserRouter>

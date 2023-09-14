@@ -1,3 +1,5 @@
+/* style.module.scss */
+
 .box {
   width: 100%;
   height: fit-content;
@@ -17,21 +19,6 @@
     max-width: 1340px;
     margin: 0 auto;
 
-    .cartCount {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      top: 30px;
-      right: 250px;
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background-color: red;
-      color: white;
-      font-size: 14px;
-    }
-
     img {
       width: 202px;
       height: 48.132px;
@@ -47,7 +34,7 @@
         li {
           color: #000;
           font-family: Clash Display;
-          font-size: 14px;
+          font-size: 18px;
           font-style: normal;
           font-weight: 400;
           line-height: 17px;
@@ -55,6 +42,28 @@
           a {
             text-decoration: none;
             color: inherit;
+            font-size: 1em;
+            position: relative;
+            transition: all 0.6s;
+
+            &:before {
+              content: "";
+              width: 0;
+              height: 0.05em;
+              position: absolute;
+              bottom: 0;
+              left: 50%;
+              background: black; /* Replace with your color variable */
+              transition: all 0.3s;
+            }
+
+            &:hover {
+              &:before {
+                width: 100%;
+                left: 0;
+                background: black; /* Replace with your second color variable */
+              }
+            }
           }
 
           &:hover {
@@ -71,6 +80,35 @@
           }
         }
       }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+      border-bottom: #000 1px solid;
+
+      .menu {
+        display: none; /* Hide the menu on mobile */
+
+        ul {
+          flex-direction: column;
+          gap: 10px;
+
+          li {
+            a {
+              font-size: 1.2em;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .link1 {
+      display: none;
     }
   }
 }

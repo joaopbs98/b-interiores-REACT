@@ -13,6 +13,7 @@
     height: 600px;
     flex-shrink: 0;
     border-radius: 20px;
+    object-fit: cover;
   }
 
   .img2 {
@@ -20,6 +21,7 @@
     height: 600px;
     flex-shrink: 0;
     border-radius: 20px;
+    object-fit: cover;
   }
 
   .img3 {
@@ -27,6 +29,7 @@
     height: 600px;
     flex-shrink: 0;
     border-radius: 20px;
+    object-fit: cover;
   }
 
   .img4 {
@@ -34,5 +37,52 @@
     height: 600px;
     flex-shrink: 0;
     border-radius: 20px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    width: 600px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-self: flex-start;
+    align-self: flex-start;
+    gap: 36px 33px;
+    flex-wrap: wrap;
+
+    .img1 {
+      width: 90vw;
+      height: 300px;
+      flex-shrink: 0;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    .img2 {
+      width: 90vw;
+      height: 300px;
+      flex-shrink: 0;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    .img3 {
+      width: 90vw;
+      height: 300px;
+      flex-shrink: 0;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    .img4 {
+      width: 90vw;
+      height: 300px;
+      flex-shrink: 0;
+      border-radius: 20px;
+      object-fit: cover;
+    }
   }
 }

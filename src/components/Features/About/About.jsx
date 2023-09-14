@@ -29,30 +29,24 @@ function About(props) {
       </div>
       <div className={AboutCSS.down}>
         <div className={AboutCSS.left}>
-          <img
-            src="https://images.unsplash.com/photo-1684846416931-dddf8cbfc2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-            alt="Furniture picture"
-          />
+          <img src="public/SofaCode/SofaCode.jpg" alt="Furniture picture" />
           <p>
-            Vestibulum tempus imperdiet sem ac porttitor. Vivamus pulvinar
-            commodo orci, suscipit porttitor velit elementum non. Fusce nec
-            pellentesque erat, id lobortis nunc. Donec dui leo, ultrices quis
-            turpis nec, sollicitudin sodales tortor. Aenean dapibus magna quam,
-            id tincidunt quam placerat consequat. Nulla eu laoreet ex.
-            Vestibulum nec vulputate turpis, id euismod orci. Phasellus
-            consectetur
+            Na B-Interiores, a nossa paixão é criar mobiliário contemporâneo que
+            se destaca. <br />
+            Oferecemos opções customizáveis que permitem que você imprima sua
+            personalidade em cada canto da sua casa.
           </p>
         </div>
         <div className={AboutCSS.right}>
           <img
-            src="https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+            src="public/CamaAustralia/Cama-Australia(2).jpg"
             alt="Furniture picture"
           />
           <p>
-            Vestibulum tempus imperdiet sem ac porttitor. Vivamus pulvinar
-            commodo orci, suscipit porttitor velit elementum non. Fusce nec
-            pellentesque erat, id lobortis nunc. Donec dui leo, ultrices quis
-            turpis nec, sollicitudin sodales tortor.
+            Com linhas limpas e detalhes cuidadosamente projetados, oferecemos a
+            você a oportunidade de personalizar seu ambiente, tornando-o
+            verdadeiramente seu. Junte-se a nós para uma experiência única em
+            transformação de espaços.
           </p>
         </div>
       </div>

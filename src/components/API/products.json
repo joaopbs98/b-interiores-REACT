@@ -1,116 +1,59 @@
 {
-  "Sala de Estar": [
+  "": [
     {
       "id": 1,
-      "name": "Sofá Couro Sintético Sora",
-      "price": "1500€",
-      "image": "https://cdn.sklum.com/pt/wk/2248169-988x708/sofa-cama-mati-leatherette-3-lugares.jpg?cf-resize=imgcat"
+      "name": "Aparador - Gaudi",
+      "image": "public/AparadorGaudi/AparadorGaudi(2).jpg"
     },
     {
       "id": 2,
-      "name": "Mesa de Centro Xenohart",
-      "price": "1800€",
-      "image": "https://cdn.sklum.com/pt/wk/1620681-472x708/mesa-de-centro-em-madeira-de-acacia-sauris.jpg?cf-resize=imgcat"
+      "name": "Aparador - Morada",
+      "image": "public/AparadorMorada/Aparador-Morada (2).jpg"
     },
     {
       "id": 6,
-      "name": "Poltrona Venti",
-      "price": "2000€",
-      "image": "https://cdn.sklum.com/pt/wk/2276672-472x708/poltrona-em-chenille-xastru.jpg?cf-resize=imgcat"
-    },
-    {
-      "id": 21,
-      "name": "Estante Modular Tom",
-      "price": "2100€",
-      "image": "https://cdn.sklum.com/pt/wk/1061900-472x708/estantes-de-parede-modulares-em-metal-120-cm-thura.jpg?cf-resize=imgcat"
+      "name": "Cama - Austrália",
+      "image": "public/CamaAustralia/Cama-Australia(1).jpg"
     },
     {
       "id": 22,
-      "name": "Tapete Minimalista Branco",
-      "price": "1300€",
-      "image": "https://cdn.sklum.com/pt/wk/2273547-472x708/tapete-de-algodao-290x250-cm-francine.jpg?cf-resize=imgcat"
+      "name": "Cama - B-I",
+      "image": "public/CamaBI/Cama-BI.jpg"
     },
     {
       "id": 23,
-      "name": "Mesa de TV Expel",
-      "price": "1700€",
-      "image": "https://cdn.sklum.com/pt/wk/1728886-988x708/movel-de-tv-em-madeira-de-manga-anais.jpg?cf-resize=imgcat"
-    }
-  ],
-  "Quarto": [
-    {
-      "id": 5,
-      "name": "Cama Solteiro Ascendio",
-      "price": "3000€",
-      "image": "https://cdn.sklum.com/pt/wk/2251969-988x708/cama-de-madeira-meliana.jpg?cf-resize=imgcat"
+      "name": "Cama - Reguleto",
+      "image": "public/CamaReguleto/CamaReguleto (6).jpg"
     },
     {
-      "id": 9,
-      "name": "Cama de Casal Lumus",
-      "price": "1600€",
-      "image": "https://cdn.sklum.com/pt/wk/1926475-988x708/cabeceira-para-cama-de-150-cm-em-madeira-de-mangueira-baty-design.jpg?cf-resize=imgcat"
+      "id": 21,
+      "name": "Cama - Nómada",
+      "image": "public/CamaNomada/CamaNomada (3).jpg"
     },
     {
-      "id": 16,
-      "name": "Mesa de Cabeceira Ceres",
-      "price": "1600€",
-      "image": "https://cdn.sklum.com/pt/wk/2386369-472x708/mesa-de-cabeceira-em-madeira-de-manga-baty.jpg?cf-resize=imgcat"
+      "id": 21,
+      "name": "Cómoda - Reguleto",
+      "image": "public/ComodaReguleto/ComodaReguleto (2).jpg"
     },
     {
-      "id": 24,
-      "name": "Guarda-roupa Oppo",
-      "price": "2700€",
-      "image": "https://cdn.sklum.com/pt/wk/2150260-472x708/guarda-roupa-de-madeira-de-mangueira-analis.jpg?cf-resize=imgcat"
+      "id": 21,
+      "name": "Conjunto Sala de Jantar - Belmonte",
+      "image": "public/ConjuntoJantar-Belmonte/ConjuntoJantar-Belmonte.jpg"
     },
     {
-      "id": 25,
-      "name": "Sofá Dois Lugares Dern",
-      "price": "1900€",
-      "image": "https://cdn.sklum.com/pt/wk/2192272-472x708/sofa-2-lugares-em-chenille-dariele.jpg?cf-resize=imgcat"
+      "id": 21,
+      "name": "Mesa de TV - Belmonte",
+      "image": "public/CamaNomada/CamaNomada (3).jpg"
     },
     {
-      "id": 26,
-      "name": "Espelho de Corpo Inteiro",
-      "price": "800€",
-      "image": "https://cdn.sklum.com/pt/wk/1203994-472x708/espelho-de-parede-em-metal-belm.jpg?cf-resize=imgcat"
-    }
-  ],
-  "Sala de Jantar": [
-    {
-      "id": 2,
-      "name": "Mesa de Jantar Eren",
-      "price": "2200€",
-      "image": "https://cdn.sklum.com/pt/wk/2169963-988x708/mesa-de-jantar-de-madeira-de-acacia-bedum.jpg?cf-resize=imgcat"
+      "id": 21,
+      "name": "Sofá - Code",
+      "image": "public/SofaCode/SofaCode (3).jpg"
     },
     {
-      "id": 4,
-      "name": "Candeeiro Bambú",
-      "price": "2400€",
-      "image": "https://cdn.sklum.com/pt/wk/2194143-472x708/lampada-de-teto-de-bambu-kariba.jpg?cf-resize=imgcat"
-    },
-    {
-      "id": 7,
-      "name": "Estante Lock",
-      "price": "2500€",
-      "image": "https://cdn.sklum.com/pt/wk/1875157-472x708/prateleiras-de-madeira-de-acacia-tasmani.jpg?cf-resize=imgcat"
-    },
-    {
-      "id": 27,
-      "name": "Cadeira de Jantar Nurti",
-      "price": "450€",
-      "image": "https://cdn.sklum.com/pt/wk/1134801-472x708/cadeira-de-jantar-em-linho-kana.jpg?cf-resize=imgcat"
-    },
-    {
-      "id": 28,
-      "name": "Mesa de Jantar Richie",
-      "price": "3200€",
-      "image": "https://cdn.sklum.com/pt/wk/2169171/mesa-de-jantar-retangular-de-madeira-180x90-cm-arnaiz.jpg?cf-resize=gallery"
-    },
-    {
-      "id": 29,
-      "name": "Aparador Kimbo",
-      "price": "2800€",
-      "image": "https://cdn.sklum.com/pt/wk/1684492-472x708/aparador-de-madeira-de-acacia-petter.jpg?cf-resize=imgcat"
+      "id": 21,
+      "name": "Sofá - Nómada",
+      "image": "public/SofaNomada/SofaNomada (3).jpg"
     }
   ]
 }

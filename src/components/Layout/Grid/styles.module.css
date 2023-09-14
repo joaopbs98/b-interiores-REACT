@@ -12,12 +12,14 @@
   height: 600px;
   flex-shrink: 0;
   border-radius: 20px;
+  object-fit: cover;
 }
 .row .img2 {
   width: 833px;
   height: 600px;
   flex-shrink: 0;
   border-radius: 20px;
+  object-fit: contain;
 }
 .row .img3 {
   width: 833px;
@@ -30,4 +32,4 @@
   height: 600px;
   flex-shrink: 0;
   border-radius: 20px;
-}/*# sourceMappingURL=styles.module.css.map */
+} /*# sourceMappingURL=styles.module.css.map */

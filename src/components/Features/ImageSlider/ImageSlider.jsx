@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "./styles.scss";
+import { Link } from "react-router-dom";
 
 export default function ImageSlider() {
   const [currImg, setCurrImg] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const images = [
-    "https://images.unsplash.com/photo-1604580040660-f0a7f9abaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
-    "https://images.unsplash.com/photo-1635321349302-f91724057317?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80",
-    "https://images.unsplash.com/photo-1572048572872-2394404cf1f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+    "public/CamaBI/Cama-BI.jpg",
+    "public/MesaTV-Belmonte/MesaTV-Belmonte (2).jpg",
+    "public/SofaNomada/SofaNomada (4).jpg",
   ];
 
   const prevImg = () =>
@@ -30,19 +31,17 @@ export default function ImageSlider() {
   return (
     <div className="ImageSlider">
       <div className="img-container">
-        <img
-          src={images[currImg]}
-          className="img modal-img"
-          alt="girl"
-          onClick={() => setIsModalOpen(true)}
-        />
-
-        <button type="button" onClick={prevImg} className="btn btn--prev">
-          {"<"}
-        </button>
-        <button type="button" onClick={nextImg} className="btn btn--next">
-          {">"}
-        </button>
+        <Link to="/catalog">
+          <img
+            src={images[currImg]}
+            className="img modal-img"
+            alt="Móveis"
+            onClick={() => setIsModalOpen(true)}
+          />
+          <div className="hover-overlay">
+            <span>Ver Catálogo</span>
+          </div>
+        </Link>
       </div>
 
       {isModalOpen && (
@@ -58,7 +57,7 @@ export default function ImageSlider() {
               <img
                 src={images[currImg]}
                 className="img modal-img"
-                alt="girl"
+                alt="Móveis"
                 onClick={() => setIsModalOpen(!isModalOpen)}
               />
 
@@ -76,7 +75,7 @@ export default function ImageSlider() {
                   key={img}
                   src={img}
                   className={`img--small ${i === currImg && "active"}`}
-                  alt="girl"
+                  alt="Móveis"
                   onClick={() => setCurrImg(i)}
                 />
               ))}
