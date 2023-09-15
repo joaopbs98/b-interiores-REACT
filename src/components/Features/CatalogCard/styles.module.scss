@@ -82,3 +82,24 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .div {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+    width: 90vw;
+    cursor: pointer;
+    position: relative;
+
+    img {
+      width: 90vw;
+      height: 380px;
+      border-radius: 8px;
+      background: #d9d9d9;
+      opacity: 1;
+      transition: opacity 0.3s ease-in-out;
+      object-fit: cover;
+    }
+  }
+}

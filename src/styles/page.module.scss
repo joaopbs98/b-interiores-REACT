@@ -42,6 +42,7 @@
     width: 1418px;
     justify-content: space-between;
     align-items: flex-start;
+    height: 500px;
 
     p {
       width: 462px;
@@ -57,6 +58,29 @@
       display: flex;
       gap: 20px;
       flex-direction: column;
+
+      input.button {
+        display: inline-flex;
+        padding: 8px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 20px;
+        background: var(--neutral-900, #0d0f11);
+        color: white;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 17px;
+        width: fit-content;
+        height: fit-content;
+      }
+
+      .button:hover {
+        transition: all 0.3s ease-in-out;
+        background: var(--neutral-900, #343638);
+        cursor: pointer;
+      }
 
       label {
         color: #202020;
@@ -88,7 +112,7 @@
         color: #000;
         font-family: Clash Display;
         font-size: 14px;
-        font-weight: 200;
+        font-weight: 300;
         line-height: 17px;
       }
     }
@@ -115,5 +139,130 @@
     font-size: 1.2rem;
     margin: 10px 0;
     color: #555;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    margin: 0 auto;
+    height: fit-content;
+  }
+
+  .contact {
+    display: flex;
+    padding-top: 24px;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+
+    p {
+      width: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    margin: 0 auto;
+    height: fit-content;
+    padding: 64px 0px;
+
+    .load {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      padding-top: 24px;
+      width: fit-content;
+      align-self: center;
+      align-self: flex-start;
+
+      .btn {
+        display: inline-flex;
+        padding: 8px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 20px;
+        background: var(--neutral-900, #0d0f11);
+        color: white;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 17px;
+      }
+
+      .btn:hover {
+        transition: all 0.3s ease-in-out;
+        background: var(--neutral-900, #343638);
+        cursor: pointer;
+      }
+    }
+    .contact {
+      display: flex;
+      padding-top: 24px;
+      width: 90vw;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      p {
+        width: 462px;
+        color: #000;
+        font-family: Clash Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px;
+      }
+
+      form {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+
+        label {
+          color: #202020;
+          font-family: Clash Display;
+          font-weight: 400;
+          line-height: 26px;
+        }
+
+        input {
+          width: 95vw;
+          height: 24.25px;
+          border: none;
+          border-bottom: solid 1px #636363;
+        }
+
+        input[type="text"]:focus {
+          outline: none;
+        }
+
+        input[type="number"]:focus {
+          outline: none;
+        }
+
+        input[type="email"]:focus {
+          outline: none;
+        }
+
+        input::placeholder {
+          color: #000;
+          font-family: Clash Display;
+          font-size: 14px;
+          font-weight: 200;
+          line-height: 17px;
+        }
+      }
+    }
   }
 }

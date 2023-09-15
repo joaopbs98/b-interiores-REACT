@@ -7,8 +7,12 @@ function Footer(props) {
           <div className={styles.top}>
             <img src="src\assets\images\logo.svg" alt="" />
             <div className={styles.socials}>
-              <img src="src\assets\images\instagram.svg" alt="" />
-              <img src="src\assets\images\facebook.svg" alt="" />
+              <a href="https://www.instagram.com/b_interiores_/">
+                <img src="src\assets\images\instagram.svg" alt="" />
+              </a>
+              <a href="https://www.facebook.com/binteriores.pt/">
+                <img src="src\assets\images\facebook.svg" alt="" />
+              </a>
             </div>
           </div>
           <div className={styles.bottom}>
