@@ -7,9 +7,9 @@ export default function ImageSlider() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const images = [
-    "public/CamaBI/Cama-BI.jpg",
-    "public/MesaTV-Belmonte/MesaTV-Belmonte (2).jpg",
-    "public/SofaNomada/SofaNomada (4).jpg",
+    "/CamaBI/Cama-BI.jpg",
+    "/MesaTV-Belmonte/MesaTV-Belmonte (2).jpg",
+    "/SofaNomada/SofaNomada (4).jpg",
   ];
 
   const prevImg = () =>

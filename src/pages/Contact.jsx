@@ -39,6 +39,7 @@ function Contact() {
           setEmail("");
           setMessage("");
           setNumber("");
+          alert("A sua mensagem foi enviada.");
         },
         (err) => {
           console.log("ERRO: ", err);

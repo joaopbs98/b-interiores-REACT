@@ -3,57 +3,57 @@
     {
       "id": 1,
       "name": "Aparador - Gaudi",
-      "image": "public/AparadorGaudi/AparadorGaudi(2).jpg"
+      "image": "/AparadorGaudi/AparadorGaudi(2).jpg"
     },
     {
       "id": 2,
       "name": "Aparador - Morada",
-      "image": "public/AparadorMorada/Aparador-Morada (2).jpg"
+      "image": "/AparadorMorada/Aparador-Morada (2).jpg"
     },
     {
       "id": 6,
       "name": "Cama - Austrália",
-      "image": "public/CamaAustralia/Cama-Australia(1).jpg"
+      "image": "/CamaAustralia/Cama-Australia(1).jpg"
     },
     {
       "id": 22,
       "name": "Cama - B-I",
-      "image": "public/CamaBI/Cama-BI.jpg"
+      "image": "/CamaBI/Cama-BI.jpg"
     },
     {
       "id": 23,
       "name": "Cama - Reguleto",
-      "image": "public/CamaReguleto/CamaReguleto (6).jpg"
+      "image": "/CamaReguleto/CamaReguleto (6).jpg"
     },
     {
       "id": 21,
       "name": "Cama - Nómada",
-      "image": "public/CamaNomada/CamaNomada (3).jpg"
+      "image": "/CamaNomada/CamaNomada (3).jpg"
     },
     {
       "id": 21,
       "name": "Cómoda - Reguleto",
-      "image": "public/ComodaReguleto/ComodaReguleto (2).jpg"
+      "image": "/ComodaReguleto/ComodaReguleto (2).jpg"
     },
     {
       "id": 21,
       "name": "Conjunto Sala de Jantar - Belmonte",
-      "image": "public/ConjuntoJantar-Belmonte/ConjuntoJantar-Belmonte.jpg"
+      "image": "/ConjuntoJantar-Belmonte/ConjuntoJantar-Belmonte.jpg"
     },
     {
       "id": 21,
       "name": "Mesa de TV - Belmonte",
-      "image": "public/CamaNomada/CamaNomada (3).jpg"
+      "image": "/CamaNomada/CamaNomada (3).jpg"
     },
     {
       "id": 21,
       "name": "Sofá - Code",
-      "image": "public/SofaCode/SofaCode (3).jpg"
+      "image": "/SofaCode/SofaCode (3).jpg"
     },
     {
       "id": 21,
       "name": "Sofá - Nómada",
-      "image": "public/SofaNomada/SofaNomada (3).jpg"
+      "image": "/SofaNomada/SofaNomada (3).jpg"
     }
   ]
 }
