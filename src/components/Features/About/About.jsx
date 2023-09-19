@@ -29,7 +29,7 @@ function About(props) {
       </div>
       <div className={AboutCSS.down}>
         <div className={AboutCSS.left}>
-          <img src="public/SofaCode/SofaCode.jpg" alt="Furniture picture" />
+          <img src="/SofaCode/SofaCode.jpg" alt="Furniture picture" />
           <p>
             Na B-Interiores, a nossa paixão é criar mobiliário contemporâneo que
             se destaca. <br />
@@ -39,7 +39,7 @@ function About(props) {
         </div>
         <div className={AboutCSS.right}>
           <img
-            src="public/CamaAustralia/Cama-Australia(2).jpg"
+            src="/CamaAustralia/Cama-Australia(2).jpg"
             alt="Furniture picture"
           />
           <p>

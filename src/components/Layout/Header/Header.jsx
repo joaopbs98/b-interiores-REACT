@@ -7,7 +7,7 @@ function Header() {
     <div className={HeaderCSS.box}>
       <nav className={HeaderCSS.nav}>
         <Link to="/">
-          <img src="src\assets\logo.png" alt="" />
+          <img src="images/assets/logo.png" alt="" />
         </Link>
         <div>
           <ul>
