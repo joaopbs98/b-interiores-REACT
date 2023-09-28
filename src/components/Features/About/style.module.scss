@@ -146,9 +146,10 @@
     gap: 24px;
     align-self: stretch;
     font-family: "ClashDisplay-Variable";
-    width: 100vw;
+    width: 95vw;
     margin: 0 auto;
     flex-direction: column;
+    padding: 0px 18px 64px 18px;
 
     .content {
       display: flex;
@@ -166,7 +167,7 @@
         gap: 20px;
 
         hr {
-          width: 1340px;
+          width: 95vw;
           height: 0.729px;
           background: #111;
         }

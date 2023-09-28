@@ -40,12 +40,12 @@
 @media screen and (max-width: 768px) {
   .div {
     display: flex;
-    padding: 64px 32px;
     justify-content: center;
+    padding: 20px 10px;
     gap: 24px;
     align-self: stretch;
     font-family: "ClashDisplay-Variable";
-    width: 100vw;
+    width: 95vw;
     margin: 0 auto;
     flex-direction: column;
 
@@ -54,18 +54,19 @@
       flex-direction: column;
       align-items: flex-start;
       gap: 20px;
-      width: 1340px;
+      width: 100vw;
 
       hr {
-        width: 1340px;
-        height: 0.729px;
+        width: 110vw;
+        height: 0.5px;
         background: #111;
+        transform: translateX(-10px);
       }
     }
 
     .content {
       display: flex;
-      width: 90vw;
+      width: 95vw;
       height: auto;
       justify-content: center;
       align-items: center;

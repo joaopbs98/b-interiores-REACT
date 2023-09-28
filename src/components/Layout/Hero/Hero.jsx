@@ -3,7 +3,7 @@ import ImageSlider from "../../Features/ImageSlider/ImageSlider";
 function Hero(props) {
   return (
     <div className={HeroCSS.hero}>
-      <div>
+      <div className={HeroCSS.container}>
         <div className={HeroCSS.HeroText}>
           <h1>Mobiliário Exclusivo, Talhado para Si.</h1>
         </div>
@@ -12,7 +12,7 @@ function Hero(props) {
           <p>Design. Planeamento. Execução.</p>
         </div>
       </div>
-      <div>
+      <div className={HeroCSS.container}>
         <ImageSlider></ImageSlider>
       </div>
     </div>

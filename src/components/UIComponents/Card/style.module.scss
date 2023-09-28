@@ -38,11 +38,11 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
-    width: fit-content;
+    width: 100%;
     flex-direction: column;
 
     img {
-      width: 480px;
+      width: 360px;
       height: 285px;
       border-radius: 20px;
       object-fit: cover;
@@ -50,7 +50,7 @@
 
     .info {
       display: flex;
-      width: 100%;
+      width: 90vw;
       justify-content: space-between;
       align-items: center;
 
