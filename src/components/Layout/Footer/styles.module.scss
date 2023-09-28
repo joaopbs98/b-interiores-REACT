@@ -49,3 +49,57 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: fit-content;
+    background: #111;
+    font-family: "ClashDisplay-Variable";
+
+    .box {
+      display: flex;
+      width: 95vw;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      padding: 28px 20px;
+
+      .company {
+        display: flex;
+        width: f95vw;
+        height: fit-content;
+        flex-direction: column;
+        gap: 18px;
+
+        .top {
+          display: flex;
+          gap: 90px;
+          align-items: center;
+
+          .socials {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: fit-content;
+            gap: 28px;
+          }
+        }
+
+        .bottom {
+          color: white;
+        }
+      }
+
+      .cta {
+        p {
+          color: white;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
