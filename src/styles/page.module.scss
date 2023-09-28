@@ -1,3 +1,11 @@
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+
 .box {
   width: 1340px;
   display: flex;
