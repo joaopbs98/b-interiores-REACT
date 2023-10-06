@@ -20,7 +20,4 @@ B-Interiores é um projeto de uma loja de mobiliário online desenvolvido em Rea
 - Na pasta do projeto, execute o comando "npm install" para instalar as dependências.
 - Após a instalação, execute o comando "npm run dev" para iniciar o servidor de desenvolvimento.
 - Acesse o aplicativo em seu navegador através do endereço http://localhost:3000.
-## Conteúdo em falta
-
-Neste momento, falta só acabar a apresentação da informação do produto no formulário de contacto e as páginas "Sobre Nós" e "A loja".
 
